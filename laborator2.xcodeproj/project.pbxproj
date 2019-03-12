@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		27289AA82237E9A700A82E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27289AA72237E9A700A82E6C /* AppDelegate.swift */; };
-		27289AAA2237E9A700A82E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27289AA92237E9A700A82E6C /* ViewController.swift */; };
+		27289AAA2237E9A700A82E6C /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27289AA92237E9A700A82E6C /* PostsViewController.swift */; };
 		27289AAD2237E9A700A82E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27289AAB2237E9A700A82E6C /* Main.storyboard */; };
 		27289AAF2237E9A900A82E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27289AAE2237E9A900A82E6C /* Assets.xcassets */; };
 		27289AB22237E9A900A82E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27289AB02237E9A900A82E6C /* LaunchScreen.storyboard */; };
+		27289ABA2237EAFB00A82E6C /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27289AB92237EAFB00A82E6C /* PostsTableViewCell.swift */; };
+		27289ABC2237EB5500A82E6C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27289ABB2237EB5500A82E6C /* PostModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27289AA42237E9A700A82E6C /* laborator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laborator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27289AA72237E9A700A82E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27289AA92237E9A700A82E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27289AA92237E9A700A82E6C /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		27289AAC2237E9A700A82E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27289AAE2237E9A900A82E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27289AB12237E9A900A82E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27289AB32237E9A900A82E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27289AB92237EAFB00A82E6C /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		27289ABB2237EB5500A82E6C /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				27289AA72237E9A700A82E6C /* AppDelegate.swift */,
-				27289AA92237E9A700A82E6C /* ViewController.swift */,
+				27289AA92237E9A700A82E6C /* PostsViewController.swift */,
 				27289AAB2237E9A700A82E6C /* Main.storyboard */,
 				27289AAE2237E9A900A82E6C /* Assets.xcassets */,
 				27289AB02237E9A900A82E6C /* LaunchScreen.storyboard */,
 				27289AB32237E9A900A82E6C /* Info.plist */,
+				27289AB92237EAFB00A82E6C /* PostsTableViewCell.swift */,
+				27289ABB2237EB5500A82E6C /* PostModel.swift */,
 			);
 			path = laborator2;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27289AAA2237E9A700A82E6C /* ViewController.swift in Sources */,
+				27289ABA2237EAFB00A82E6C /* PostsTableViewCell.swift in Sources */,
+				27289ABC2237EB5500A82E6C /* PostModel.swift in Sources */,
+				27289AAA2237E9A700A82E6C /* PostsViewController.swift in Sources */,
 				27289AA82237E9A700A82E6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
